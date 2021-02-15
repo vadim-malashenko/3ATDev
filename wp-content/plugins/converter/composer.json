@@ -1,0 +1,21 @@
+{
+  "name": "atdev/converter",
+  "type": "library",
+  "require": {
+    "php": "7.4.*",
+    "ext-json": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "ATDev\\Tools\\": "src/"
+    },
+    "classmap": [
+      "src"
+    ]
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "ATDev\\Tools\\Test\\": "tests/"
+    }
+  }
+}
