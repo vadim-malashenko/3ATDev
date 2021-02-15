@@ -1,0 +1,1 @@
+![](https://github.com/vadim-malashenko/3ATDev/blob/master/test.jpg)
