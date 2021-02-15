@@ -25,7 +25,7 @@ export default class Converter {
         const to = `${id}_to`
         const pairs = `${id}_pairs`
 
-        const container = document.getElementById(id) || document.body
+        const container = document.getElementById(id)
         const currenciesContainer = container.querySelector(':scope .currencies')
         const pairsContainer = container.querySelector(':scope .pairs')
 
